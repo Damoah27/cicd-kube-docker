@@ -7,8 +7,8 @@ pipeline {
     }
 */
     tools { 
-      maven 'MAVEN_HOME' 
-      jdk 'JAVA_HOME' 
+      maven 'MAVEN3' 
+      jdk 'OracleJDK8' 
     }
     environment {
         registry = "vupham0402/vproappdock"
