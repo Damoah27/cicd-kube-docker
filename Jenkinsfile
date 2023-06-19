@@ -6,6 +6,10 @@ pipeline {
         maven "maven3"
     }
 */
+    tools { 
+      maven 'MAVEN_HOME' 
+      jdk 'JAVA_HOME' 
+    }
     environment {
         registry = "vupham0402/vproappdock"
         registryCredential = 'dockerhub'
